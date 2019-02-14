@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tiempo"
+            android:icon="@drawable/tiempo"
+            android:title="Tiempo Real" />
+        <item
+            android:id="@+id/historial"
+            android:icon="@drawable/rutas"
+            android:title="Historial" />
+
+    </group>
+
+
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/apagar"
+                android:title="Salir" />
+
+
+</menu>

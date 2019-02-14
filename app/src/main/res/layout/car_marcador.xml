@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/L_item_pago"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:elevation="1dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Placa: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/Txt_placa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text=" MIA_920"
+                android:textColor="#000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp"
+             >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Estado  : "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+            <TextView
+                android:id="@+id/Txt_estado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text=""
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:drawableRight="@drawable/ena"
+              android:paddingLeft="10dp"
+                android:textSize="10sp"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Velocidad : "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/Txt_velocidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="0 km/h"
+                android:textColor="#000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Horometro: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/Txt_horometro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="0:00 horas"
+                android:textColor="#000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Chofer: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/Txt_chofer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Pedro perez  velazquez"
+                android:textColor="#000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp">
+            <TextView
+               android:id="@+id/txt_etiqueta_tiempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Tiempo de recorrido: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/Txt_tiempo_reco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="9 min"
+                android:textColor="#000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Direccion: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/Txt_direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Avenida principal "
+                android:textColor="#000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Bloqueo: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/Txt_bloqueo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="OFF"
+                android:textColor="#000"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text="Volt. Bat: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/Txt_voltio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLength="35"
+                android:text=" 0 "
+                android:textColor="#000"
+                android:textSize="10sp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp">
+
+
+            <TextView
+                android:id="@+id/Txt_presiona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLength="35"
+                android:text="Link: Ubicacion"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="italic"
+                android:textSize="12sp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

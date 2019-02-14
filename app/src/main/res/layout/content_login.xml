@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:aplicación="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:touchscreenBlocksFocus="true">
+
+
+        <LinearLayout
+            android:id="@+id/PARTE0"
+            android:layout_marginHorizontal="32dp"
+
+            android:layout_weight="1"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            aplicación:layout_heightPercent="25%"
+            aplicación:layout_widthPercent="100%">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:elevation="1dp"
+                android:padding="1dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo" />
+
+            <Spinner
+                android:id="@+id/Sp_tipo_vehiculo"
+                style="@style/ThemeOverlay.AppCompat.Dark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#e6dcdc"
+                android:popupBackground="#9b9797"
+                android:visibility="gone">
+
+            </Spinner>
+
+            <TextView
+                android:id="@+id/txt_url"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="url...."
+                android:textColor="#000"
+                android:textSize="10sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/PARTE1"
+            android:layout_below="@+id/PARTE0"
+            android:layout_marginHorizontal="40dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:touchscreenBlocksFocus="false"
+            aplicación:layout_heightPercent="35%"
+            aplicación:layout_widthPercent="100%">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+               >
+
+                <EditText
+                    android:id="@+id/Edit_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/user"
+                    android:elevation="1dp"
+                    android:hint=" Usuario"
+                    android:text="FIGUERAC21"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+                android:elevation="1dp">
+
+
+                <EditText
+                    android:id="@+id/Edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/pass"
+                    android:elevation="1dp"
+                    android:hint=" Contraseña"
+                    android:imeActionId="6"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:text="123456"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/Btn_ingresar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="40dp"
+                android:layout_weight="1.5"
+                android:background="#4180C5"
+                android:text="Ingresar "
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+    </android.support.percent.PercentRelativeLayout>
+</LinearLayout>
